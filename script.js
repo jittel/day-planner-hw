@@ -1,6 +1,6 @@
 $(document).ready(function () {
     var hoursInDay = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-    var localData = JSON.parse(localStorage.getItem('schedule'));
+    var localData = JSON.parse(localStorage.getItem('schedule')) || {};
 
     var container = $('.container');
 
